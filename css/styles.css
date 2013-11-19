@@ -1783,3 +1783,22 @@ tr.selected td {
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
+/**
+ * @file:
+ * node styles
+ */
+/* line 6, ../sass/customs/_nodes.scss */
+h1.page__title.title {
+  font-family: 'droid_sansbold';
+  font-size: 24px;
+}
+
+/* line 11, ../sass/customs/_nodes.scss */
+p {
+  font-family: 'droid_sans';
+  color: #212121;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
