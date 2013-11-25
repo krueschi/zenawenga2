@@ -1,0 +1,37 @@
+/**
+ * @file
+ * Color styles
+ */
+
+/**
+ * color settings
+ */
+$ht16red: #a10f15;
+$darkred: #640b0f;
+
+$yellowlight: #fffbd9;
+$yellow: #ffeb00; 
+
+$white: #ffffff;
+$light: efefef;
+$lightgrey: #f7f7f7;
+$mediumgrey: #dddddd;
+$shadowgrey: #ababab;
+$grey: #999999;
+$anthrazit: #373737;
+$dark: #212121;
+$black: #000000;
+
+/*
+ * color variables
+ * naming conventions:
+ * - prefix: "c_" (for color)
+ * - +context or element (e.g. "link" for links) 
+ */
+$c_hinweisback: $yellowlight;
+$c_hinweisborder: $yellow;
+
+$c_link: $darkred;
+
+$c_text: $dark;
+$c_shadow: $shadowgrey;

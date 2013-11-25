@@ -1,0 +1,18 @@
+/**
+ * @file:
+ * node styles
+ */
+ 
+h1.page__title.title {
+  font-family: 'droid_sansbold';
+  font-size: $h2-font-size;
+}
+ 
+p {
+  font-family: 'droid_sans';
+  color: $c_text;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
