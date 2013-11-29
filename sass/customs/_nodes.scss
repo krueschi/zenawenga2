@@ -3,10 +3,13 @@
  * node styles
  */
  
-h1.page__title.title {
-  font-family: 'droid_sansbold';
+h1.page__title.title,
+.node h2 {
+  font-family: 'droid_sans';
   font-size: $h2-font-size;
+  color: $c_text;
 }
+
  
 p {
   font-family: 'droid_sans';
@@ -15,4 +18,20 @@ p {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+.node {
+  a:hover,
+  a:active {
+    text-shadow: $c_shadow 2px 2px 2px;
+  }
+}
+
+.flippy,
+.breadcrumb {
+  font-size: $base-font-size/1.25;
+  a,
+  a:link {
+    color: $c_text;
+  }
 }

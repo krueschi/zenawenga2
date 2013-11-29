@@ -1,9 +1,196 @@
-/**
+﻿/**
  * @file:
  * menu styles
  */
-#secondary-menu {
-  &header__secondary-menu {
-    color: $
+/*
+ * Navigation bar
+ */
+#navigation {
+  clear: both;
+}
+
+#navigation a {
+  display: inline-block;
+  position:relative;
+	overflow:hidden;
+	/* height: 31px; */
+	cursor: pointer;
+	font-weight:bold;
+	text-decoration: none;
+	margin-right: 2px;
+	margin-left: 2px; 
+}
+
+
+/*
+ * Primary and Secondary menu links
+ */
+#main-menu {
+  clear: both;
+  font-size: $h5-font-size;
+  margin: 0;
+  padding: 0 0.25em;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #dedede;
+}
+
+#main-menu li {
+  float: left; /* LTR */
+  list-style: none;
+  padding: 0 1px;
+  margin: 0 1px;
+  font-family: 'droid_sans';
+  letter-spacing: 1px;
+}
+#main-menu a {
+  color: $anthrazit;
+  background: $mediumgrey;
+  /* background: rgba(255, 255, 255, 0.7); */
+  float: left; /* LTR */
+  height: 2.2em;
+  line-height: 2.2em;
+  padding: 0 0.5em;
+  text-decoration: none;
+  text-shadow: 0 1px $light;
+  -khtml-border-radius-topleft: 8px;
+  -khtml-border-radius-topright: 8px;
+  -moz-border-radius-topleft: 8px;
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#main-menu a:hover,
+#main-menu a:focus {
+  background: $ht16red;
+  color: $light;
+  text-shadow: none;
+  /* background: rgba(255, 255, 255, 0.95); */
+}
+#main-menu a:active {
+  background: $ht16red;
+  color: $light;
+  text-shadow: none;
+  /* background: rgba(255, 255, 255, 1); */
+}
+#main-menu li a.active {
+  border-bottom: none;
+  background: $ht16red;
+  color: $light;
+  text-shadow: none;
+  
+}
+.featured #main-menu li a:active,
+.featured #main-menu li a.active {
+  background: #f0f0f0;
+  background: rgba(240, 240, 240, 1.0);
+}
+
+/* Responsive menu settings and overrides */
+
+.responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
+  position: relative;
+}
+
+@media all and (max-width: 768px) {
+  #navigation {
+    li {
+      float: left;
+      text-align: center;
+      width: 100%;
+    }
+    a,
+    a:link,
+    a:hover,
+    a:active,
+    a:visited {
+      color: $light;
+    }
+  }
+}
+
+/*
+ * Secondary menu stylings
+ */
+
+#header-links,
+#block-menu-menu-secondary-menu {
+  float: right;
+  display: inline;
+  margin-top: -3em;
+}
+
+#block-menu-menu-secondary-menu ul,
+#block-menu-menu-secondary-menu li,
+#block-menu-menu-secondary-menu a,
+#block-menu-menu-secondary-menu a:link,
+#block-menu-menu-secondary-menu a:hover,
+#block-menu-menu-secondary-menu a:visited {
+  display:inline;
+  float:left;
+  margin:5px 5px 0px 0px;
+  list-style:none;
+  font-size: $h5-font-size;
+  line-height: $h5-font-size;
+  color:$anthrazit;   
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#block-menu-menu-secondary-menu a:hover,
+ a.active {
+  text-shadow: $c_shadow 2px 2px 2px;
+  color: $ht16red;
+}
+
+#block-menu-menu-secondary-menu li {
+  border-right: 1px solid $grey;
+}
+
+#block-menu-menu-secondary-menu li.last {
+  border-right: none;
+}
+
+.element-invisible {
+  position: absolute;
+  left: -5000em;
+}
+
+@media all and (max-width: 700px) {
+  #block-menu-menu-secondary-menu {
+    margin-top: +1.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*
+ * End secondary menu stylings
+ */
+ 
+/*
+ * Block menu stylings
+ */
+.sidebars .block {
+  a {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  }
+  a:link {
+    margin: 0.125em;
+    padding: 0.25em;
+    border: 0px;
+    border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    -webkit-border-radius: 0.25em;
+    -khtml-border-radius: 0.25em;
+  }
+  a:hover {
+    color: $light;
+    background-color: $ht16red;
   }
 }

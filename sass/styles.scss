@@ -24,6 +24,8 @@
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
+@import "customs/pages";
 @import "customs/blocks";
 @import "customs/menus";
 @import "customs/nodes";
+@import "customs/views";

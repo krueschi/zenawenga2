@@ -2,3 +2,24 @@
  * @file:
  * block styles
  */
+.sidebars .block {
+  padding: 0.1175em 0;
+  background: none repeat scroll 0 0 $white;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.125) inset, 0 10px 10px rgba(0, 0, 0, 0.125);
+  z-index: 1;
+  font-family: 'droid_sans';
+  h2 {
+    font-size: $h3-font-size;
+    border-bottom: solid 1px;
+    border-color: $grey;
+    color: $c_text;
+    text-align: center;
+  }
+  li {
+    margin: 0.125em 0;
+  }
+}
+
+.sidebar #block-block-1 {
+  box-shadow: none;
+}

@@ -1,0 +1,66 @@
+﻿/*
+ * pages styles
+ */
+ 
+/*
+ * Header
+ */
+#header {
+  margin: 1em auto;
+	position: relative;
+	z-index:0;
+  min-height: 7.5em;
+}
+
+#logo /* Wrapping link for logo */ {
+  float: left; /* LTR */
+  margin-left: 10px;
+  margin-top: 3px;
+  padding: 0;
+  display : block;
+}
+
+#logo img {
+  vertical-align: bottom;
+}
+
+#name-and-slogan /* Wrapper for website name and slogan */ {
+  font-family: 'droid_sansbold';
+}
+
+h1#site-name, 
+div#site-name /* The name of the website */ {
+  display: block;
+  float: left;
+  font-size: 2em;
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+}
+
+.header__site-link a,
+.header__site-link:link, 
+.header__site-link:visited {
+  color: $ht16red;
+  text-decoration: none;
+  text-shadow: $shadowgrey 3px 3px 3px;
+}
+
+div#site-slogan {
+  font-size:1.25em;
+	font-style:italic;
+	font-weight:bold;
+  margin-left: 1.12em;
+	color: $grey;
+}
+
+/**
+ * Link stylings
+ */
+a,
+a:link,
+a:hover,
+a:active,
+a:visited, {
+  color: $ht16red;
+  text-decoration: none;
+}
