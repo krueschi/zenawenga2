@@ -1691,7 +1691,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1385150685');
+  background-image: url('../images/progress.gif?1385707307');
 }
 
 /**
@@ -1856,6 +1856,27 @@ a:active,
 a:visited {
   color: #a10f15;
   text-decoration: none;
+}
+
+/**
+ * @file
+ * Styles for display suite menu fields
+ */
+/* line 5, ../sass/customs/_ds.scss */
+.ds-top .field-name-title h2 {
+  line-height: 1em;
+}
+
+/* line 9, ../sass/customs/_ds.scss */
+.ds-left-column {
+  margin-right: 1.5em;
+}
+
+/* line 13, ../sass/customs/_ds.scss */
+p.submitted {
+  margin-top: 0;
+  color: #999999;
+  font-size: 0.875em;
 }
 
 /**
