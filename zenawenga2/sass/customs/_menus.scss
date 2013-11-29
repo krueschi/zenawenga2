@@ -94,7 +94,12 @@
   position: relative;
 }
 
-@media all and (max-width: 768px) {
+.mean-bar h2 {
+  line-height: 1em;
+  margin: 0;
+}
+
+@media all and (max-width: 790px) {
   #navigation {
     li {
       float: left;

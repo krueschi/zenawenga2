@@ -7,7 +7,22 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
+<div class="PageBackgroundSimpleGradient"></div>
+<div class="PageBackgroundGlare">
+  <div class="PageBackgroundGlareImage"></div>
+</div>
 
+<div class="Sheet">
+  <div class="Sheet-tl"></div>
+  <div class="Sheet-tr"></div>
+  <div class="Sheet-bl"></div>
+  <div class="Sheet-br"></div>
+  <div class="Sheet-tc"></div>
+  <div class="Sheet-bc"></div>
+  <div class="Sheet-cl"></div>
+  <div class="Sheet-cr"></div>
+  <div class="Sheet-cc"></div>
+    <div class="Sheet-body">
 <div id="page">
 
   <header class="header" id="header" role="banner">
@@ -119,4 +134,7 @@
 
 </div>
 
+</div></div><!-- /#Sheet-body, /#Sheet -->
+
 <?php print render($page['bottom']); ?>
+
