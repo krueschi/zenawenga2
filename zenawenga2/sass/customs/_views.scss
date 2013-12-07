@@ -12,3 +12,33 @@
     width: 100%;
   }
 }
+
+/* Footer link settings */
+.view-footer {
+  text-align: center;
+  p a {
+    &:link {
+      margin: 0.5rem;
+      padding: 0.5rem 1.75rem;
+      color: $dark;
+      border: 1px solid;
+      border-radius: 1.5rem;
+      border-color: $shadowgrey;
+      background-color: $mediumgrey;
+      background-image: -moz-linear-gradient(center top, $lightgrey, $mediumgrey);
+      background-image: -webkit-gradient(linear top bottom from($lightgrey) to($mediumgrey));
+      background-image: linear-gradient(top, $lightgrey, $mediumgrey);
+      /* Für Internet Explorer 5.5 - 7 */
+      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey);
+      zoom: 1;
+      /* Für Internet Explorer 8 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey)";
+    }
+    &:hover {
+      color: $light;
+      border: none;
+      background-color: $ht16red;
+      background-image: -moz-linear-gradient(center top, $ht16red, $ht16shadow);
+    }
+  }
+}
