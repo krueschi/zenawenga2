@@ -26,7 +26,7 @@
       border-color: $shadowgrey;
       background-color: $mediumgrey;
       background-image: -moz-linear-gradient(center top, $lightgrey, $mediumgrey);
-      background-image: -webkit-gradient(linear top bottom from($lightgrey) to($mediumgrey));
+      background-image: -webkit-gradient(linear, top, bottom, from($lightgrey), to($mediumgrey));
       background-image: linear-gradient(top, $lightgrey, $mediumgrey);
       /* Für Internet Explorer 5.5 - 7 */
       filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey);
@@ -39,6 +39,13 @@
       border: none;
       background-color: $ht16red;
       background-image: -moz-linear-gradient(center top, $ht16red, $ht16shadow);
+      background-image: -webkit-gradient(linear, top, bottom, from($ht16red), to($ht16shadow));
+      background-image: linear-gradient(top, $ht16red, $ht16shadow);
+      /* Für Internet Explorer 5.5 - 7 */
+      filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow);
+      zoom: 1;
+      /* Für Internet Explorer 8 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow)";
     }
   }
 }

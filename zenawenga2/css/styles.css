@@ -2413,7 +2413,7 @@ p {
   border-color: #ababab;
   background-color: #dddddd;
   background-image: -moz-linear-gradient(center top, #f7f7f7, #dddddd);
-  background-image: -webkit-gradient(linear top bottom from(#f7f7f7) to(#dddddd));
+  background-image: -webkit-gradient(linear, top, bottom, from(#f7f7f7), to(#dddddd));
   background-image: linear-gradient(top, #f7f7f7, #dddddd);
   /* FÅr Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey);
@@ -2427,4 +2427,11 @@ p {
   border: none;
   background-color: #a10f15;
   background-image: -moz-linear-gradient(center top, #a10f15, #5d0000);
+  background-image: -webkit-gradient(linear, top, bottom, from(#a10f15), to(#5d0000));
+  background-image: linear-gradient(top, #a10f15, #5d0000);
+  /* FÅr Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow);
+  zoom: 1;
+  /* FÅr Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow)";
 }
