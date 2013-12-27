@@ -2355,6 +2355,7 @@ h1.page__title.title,
 }
 
 /* line 14, ../sass/customs/_nodes.scss */
+.node li,
 p {
   font-family: 'droid_sans';
   color: #212121;
