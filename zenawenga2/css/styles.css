@@ -2436,3 +2436,27 @@ p {
   /* FÅr Internet Explorer 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow)";
 }
+
+/*
+ * News archiv view
+ */
+/* line 56, ../sass/customs/_views.scss */
+.view-newsarchiv .view-content .views-table {
+  width: 100%;
+}
+/* line 58, ../sass/customs/_views.scss */
+.view-newsarchiv .view-content .views-table caption {
+  font-size: 18.72px;
+  color: #212121;
+  background-color: #efefef;
+  border: 1px solid;
+  border-color: #ababab;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  padding: 0.25em 0;
+}
+
+/* line 70, ../sass/customs/_views.scss */
+.views-field.views-field-created.views-align-left {
+  width: 6em;
+}
