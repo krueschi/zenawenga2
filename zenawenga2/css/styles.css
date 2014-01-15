@@ -2355,6 +2355,16 @@ h1.page__title.title,
 }
 
 /* line 14, ../sass/customs/_nodes.scss */
+.node h3, .node h4, .node h5, .node h6 {
+  font-family: 'droid_sans';
+}
+/* line 18, ../sass/customs/_nodes.scss */
+.node a:hover,
+.node a:active {
+  text-shadow: #ababab 2px 2px 2px;
+}
+
+/* line 24, ../sass/customs/_nodes.scss */
 .node li,
 p {
   font-family: 'droid_sans';
@@ -2365,18 +2375,12 @@ p {
   hyphens: auto;
 }
 
-/* line 25, ../sass/customs/_nodes.scss */
-.node a:hover,
-.node a:active {
-  text-shadow: #ababab 2px 2px 2px;
-}
-
-/* line 31, ../sass/customs/_nodes.scss */
+/* line 34, ../sass/customs/_nodes.scss */
 .flippy,
 .breadcrumb {
   font-size: 12.8px;
 }
-/* line 34, ../sass/customs/_nodes.scss */
+/* line 37, ../sass/customs/_nodes.scss */
 .flippy a,
 .flippy a:link,
 .breadcrumb a,
@@ -2460,3 +2464,5 @@ p {
 .views-field.views-field-created.views-align-left {
   width: 6em;
 }
+
+/* End news archiv view */
