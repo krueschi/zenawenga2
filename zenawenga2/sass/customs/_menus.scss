@@ -97,6 +97,8 @@
 .mean-bar h2 {
   line-height: 1em;
   margin: 0;
+  position: absolute;
+  left: -10000em;
 }
 
 @media all and (max-width: 790px) {
