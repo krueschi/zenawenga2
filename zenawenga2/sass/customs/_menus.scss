@@ -101,23 +101,6 @@
   left: -10000em;
 }
 
-@media all and (max-width: 790px) {
-  #navigation {
-    li {
-      float: left;
-      text-align: center;
-      width: 100%;
-    }
-    a,
-    a:link,
-    a:hover,
-    a:active,
-    a:visited {
-      color: $light;
-    }
-  }
-}
-
 /*
  * Secondary menu stylings
  */
@@ -165,8 +148,9 @@
   left: -5000em;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 790px) {
   #block-menu-menu-secondary-menu {
+    position: absolute;
     margin-top: +1.5em;
     margin-left: auto;
     margin-right: auto;

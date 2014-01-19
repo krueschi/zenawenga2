@@ -2239,26 +2239,10 @@ p.submitted {
   left: -10000em;
 }
 
-@media all and (max-width: 790px) {
-  /* line 106, ../sass/customs/_menus.scss */
-  #navigation li {
-    float: left;
-    text-align: center;
-    width: 100%;
-  }
-  /* line 115, ../sass/customs/_menus.scss */
-  #navigation a,
-  #navigation a:link,
-  #navigation a:hover,
-  #navigation a:active,
-  #navigation a:visited {
-    color: #efefef;
-  }
-}
 /*
  * Secondary menu stylings
  */
-/* line 126, ../sass/customs/_menus.scss */
+/* line 109, ../sass/customs/_menus.scss */
 #header-links,
 #block-menu-menu-secondary-menu {
   float: right;
@@ -2266,7 +2250,7 @@ p.submitted {
   margin-top: -3em;
 }
 
-/* line 137, ../sass/customs/_menus.scss */
+/* line 120, ../sass/customs/_menus.scss */
 #block-menu-menu-secondary-menu ul,
 #block-menu-menu-secondary-menu li,
 #block-menu-menu-secondary-menu a,
@@ -2284,32 +2268,33 @@ p.submitted {
   text-transform: uppercase;
 }
 
-/* line 150, ../sass/customs/_menus.scss */
+/* line 133, ../sass/customs/_menus.scss */
 #block-menu-menu-secondary-menu a:hover,
 a.active {
   text-shadow: #ababab 2px 2px 2px;
   color: #a10f15;
 }
 
-/* line 155, ../sass/customs/_menus.scss */
+/* line 138, ../sass/customs/_menus.scss */
 #block-menu-menu-secondary-menu li {
   border-right: 1px solid #999999;
 }
 
-/* line 159, ../sass/customs/_menus.scss */
+/* line 142, ../sass/customs/_menus.scss */
 #block-menu-menu-secondary-menu li.last {
   border-right: none;
 }
 
-/* line 163, ../sass/customs/_menus.scss */
+/* line 146, ../sass/customs/_menus.scss */
 .element-invisible {
   position: absolute;
   left: -5000em;
 }
 
-@media all and (max-width: 700px) {
-  /* line 169, ../sass/customs/_menus.scss */
+@media all and (max-width: 790px) {
+  /* line 152, ../sass/customs/_menus.scss */
   #block-menu-menu-secondary-menu {
+    position: absolute;
     margin-top: +1.5em;
     margin-left: auto;
     margin-right: auto;
@@ -2321,14 +2306,14 @@ a.active {
 /*
  * Block menu stylings
  */
-/* line 184, ../sass/customs/_menus.scss */
+/* line 168, ../sass/customs/_menus.scss */
 .sidebars .block a {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
 }
-/* line 190, ../sass/customs/_menus.scss */
+/* line 174, ../sass/customs/_menus.scss */
 .sidebars .block a:link {
   margin: 0.125em;
   padding: 0.25em;
@@ -2338,7 +2323,7 @@ a.active {
   -webkit-border-radius: 0.25em;
   -khtml-border-radius: 0.25em;
 }
-/* line 199, ../sass/customs/_menus.scss */
+/* line 183, ../sass/customs/_menus.scss */
 .sidebars .block a:hover {
   color: #efefef;
   background-color: #a10f15;
