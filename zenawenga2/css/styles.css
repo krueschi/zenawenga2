@@ -2383,19 +2383,27 @@ p {
   font-family: 'droid_sans';
 }
 
-/* Bildlauf */
+/* Leertext */
 /* line 9, ../sass/customs/_views.scss */
+.hinweis {
+  background-color: #fffbd9;
+  border: 1px solid #ffeb00;
+  padding: 0.75rem;
+}
+
+/* Bildlauf */
+/* line 17, ../sass/customs/_views.scss */
 .region .region-highlighted .views-view-grid .cols-4 {
   width: 100% img;
   width-width: 100%;
 }
 
 /* Footer link settings */
-/* line 17, ../sass/customs/_views.scss */
+/* line 25, ../sass/customs/_views.scss */
 .view-footer {
   text-align: center;
 }
-/* line 20, ../sass/customs/_views.scss */
+/* line 28, ../sass/customs/_views.scss */
 .view-footer p a:link {
   margin: 0.5rem;
   padding: 0.5rem 1.75rem;
@@ -2413,7 +2421,7 @@ p {
   /* FÅr Internet Explorer 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey)";
 }
-/* line 37, ../sass/customs/_views.scss */
+/* line 45, ../sass/customs/_views.scss */
 .view-footer p a:hover {
   color: #efefef;
   border: none;
@@ -2431,11 +2439,11 @@ p {
 /*
  * News archiv view
  */
-/* line 56, ../sass/customs/_views.scss */
+/* line 64, ../sass/customs/_views.scss */
 .view-newsarchiv .view-content .views-table {
   width: 100%;
 }
-/* line 58, ../sass/customs/_views.scss */
+/* line 66, ../sass/customs/_views.scss */
 .view-newsarchiv .view-content .views-table caption {
   font-size: 18.72px;
   color: #212121;
@@ -2447,7 +2455,7 @@ p {
   padding: 0.25em 0;
 }
 
-/* line 70, ../sass/customs/_views.scss */
+/* line 78, ../sass/customs/_views.scss */
 .views-field.views-field-created.views-align-left {
   width: 6em;
 }
