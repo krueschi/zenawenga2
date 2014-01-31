@@ -38,3 +38,18 @@ p {
     color: $c_text;
   }
 }
+
+ul.flippy li {
+  padding: 0;
+  margin-top: +1em;
+  a:link,
+  a:visited {
+    color: $c_fliplink;
+  }
+  &.prev:before {
+  content: "<<";
+  }
+  &.next:before {
+  content: ">>";
+  }
+}
