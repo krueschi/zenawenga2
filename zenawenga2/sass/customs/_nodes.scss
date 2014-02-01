@@ -42,6 +42,7 @@ p {
 ul.flippy li {
   padding: 0;
   margin-top: +1em;
+  display: block;
   a:link,
   a:visited {
     color: $c_fliplink;
