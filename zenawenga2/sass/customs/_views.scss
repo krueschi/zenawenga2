@@ -38,7 +38,8 @@
 .view-footer {
   text-align: center;
   p a {
-    &:link {
+    &:link,
+    &:visited {
       margin: 0.5rem;
       padding: 0.5rem 1.75rem;
       color: $dark;
@@ -55,7 +56,8 @@
       /* Für Internet Explorer 8 */
       -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey)";
     }
-    &:hover {
+    &:hover,
+    &:active {
       color: $light;
       border: none;
       background-color: $ht16red;
