@@ -36,6 +36,13 @@
   }
 }
 
+// Mixin for round corners with vendor prefixes
+@mixin rounded($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
 // Mixin for a box-shadow with vendor prefixes
 @mixin shadow($x, $y, $blur, $color) {
   -webkit-box-shadow: $x $y $blur $color;
@@ -43,16 +50,16 @@
   box-shadow: $x $y $blur $color;
 }
 
+// The spread value must be negative!
+@mixin one-edge-shadow($x, $y, $blur, $spread, $color) {
+  -webkit-box-shadow: $x $y $blur $spread $color;
+  -moz-box-shadow: $x $y $blur $spread $color;
+  box-shadow: $x $y $blur $spread $color;
+}
+
 // Mixin for a inset box-shadow with vendor prefixes
 @mixin shadow-inset($x, $y, $blur, $color) {
   -webkit-box-shadow: inset $x $y $blur $color;
   -moz-box-shadow: inset $x $y $blur $color;
   box-shadow: inset $x $y $blur $color;
-}
-
-// Mixin for round corners with vendor prefixes
-@mixin rounded($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  border-radius: $radius;
 }
