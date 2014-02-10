@@ -5,6 +5,8 @@
 .sidebars .block {
   padding: 0.1175em 0;
   background: none repeat scroll 0 0 $white;
+  -webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.175) inset, 0 10px 10px rgba(0, 0, 0, 0.175), 0 16px 12px -12px #000;
+  -moz-box-shadow: 0 0 24px rgba(0, 0, 0, 0.175) inset, 0 10px 10px rgba(0, 0, 0, 0.175), 0 16px 12px -12px #000;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.175) inset, 0 10px 10px rgba(0, 0, 0, 0.175), 0 16px 12px -12px #000;
   z-index: 1;
   font-family: 'droid_sans';
