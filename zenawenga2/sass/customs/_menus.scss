@@ -61,6 +61,9 @@
   -webkit-border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  & {
+    @include buttonstyle;
+  }
 }
 #main-menu a:hover,
 #main-menu a:focus {
@@ -68,6 +71,9 @@
   color: $light;
   text-shadow: none;
   /* background: rgba(255, 255, 255, 0.95); */
+  & {
+    @include buttonstyle_hover;
+  }
 }
 #main-menu a:active {
   background: $ht16red;
