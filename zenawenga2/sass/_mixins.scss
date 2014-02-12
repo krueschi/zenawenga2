@@ -68,6 +68,7 @@
 @mixin buttonstyle {
   border: 1px solid;
   border-color: $shadowgrey;
+  background-color: $mediumgrey;
   background-image: -moz-linear-gradient(center top, $lightgrey, $mediumgrey);
   background-image: -webkit-gradient(linear, top, bottom, from($lightgrey), to($mediumgrey));
   background-image: linear-gradient(top, $lightgrey, $mediumgrey);
