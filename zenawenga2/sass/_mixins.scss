@@ -71,6 +71,7 @@
   background-color: $mediumgrey;
   background-image: -moz-linear-gradient(center top, $lightgrey, $mediumgrey);
   background-image: -webkit-gradient(linear, top, bottom, from($lightgrey), to($mediumgrey));
+  background-image: -webkit-linear-gradient(top, $lightgrey 0%, $mediumgrey 100%);
   background-image: linear-gradient(top, $lightgrey, $mediumgrey);
   /* Für Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey);
@@ -86,6 +87,7 @@
   background-color: $ht16red;
   background-image: -moz-linear-gradient(center top, $ht16red, $ht16shadow);
   background-image: -webkit-gradient(linear, top, bottom, from($ht16red), to($ht16shadow));
+  background-image: -webkit-linear-gradient(top, $ht16red 0%, $ht16shadow 100%);
   background-image: linear-gradient(top, $ht16red, $ht16shadow);
   /* Für Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow);
