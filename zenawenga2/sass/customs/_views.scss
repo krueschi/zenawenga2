@@ -77,3 +77,16 @@
 }
 
 /* End news archiv view */
+
+/* Views edit links */
+.views-field-edit-node a {
+  .even & {
+    color: $ht16red;
+  }
+  .odd & {
+    color: $c_link;
+  }
+  &:hover {
+    color: $c_fliplink;
+  }
+}
