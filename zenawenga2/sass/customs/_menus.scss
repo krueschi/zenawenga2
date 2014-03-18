@@ -175,6 +175,7 @@
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  transition: background 0.3s roll-out 0s;
   }
   a:link {
     margin: 0.125em;
