@@ -21,14 +21,20 @@
   }
 }
 
-@media screen and (min-width: 791px) and (max-width: 959px) {
+@media screen and (min-width: 580px) and (max-width: 959px) {
   .view-bildlauf .col-4 {
     display: none;
   }
 }
 
-@media screen and (max-width: 790px) {
-  .view-bildlauf .col-2,
+@media screen and (max-width: 670px) {
+  .view-bildlauf .col-3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .view-bildlauf .col-3,
   .view-bildlauf .col-4 {
     display: none;
   }
