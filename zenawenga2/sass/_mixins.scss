@@ -95,3 +95,10 @@
   /* Für Internet Explorer 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow)";
 }
+
+@mixin transitions($what, $dura, $form) {
+  -webkit-transition: $what $dura $form;
+  -moz-transition: $what $dura $form;
+  -o-transition: $what $dura $form;
+  transition: $what $dura $form;
+}
