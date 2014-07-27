@@ -115,3 +115,12 @@
     color: $c_fliplink;
   }
 }
+
+/*
+ * Views archiv table even/odd row styles.
+ */
+.view-newsarchiv {
+  tr:nth-child(2n) {
+    background-color: $light;
+  }
+}
