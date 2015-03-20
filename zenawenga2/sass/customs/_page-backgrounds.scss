@@ -34,10 +34,11 @@
     border: 1px solid transparent; /* Opera fix */
   }
 
-  .PageBackgroundSimpleGradient
-  {
+  .PageBackgroundSimpleGradient {
     position: absolute;
-    background-image: url('../images/background/Page-BgSimpleGradient.jpg');
+    @include background-image(linear-gradient(to bottom, $c_backblue, $white));
+    width: 80px;
+    height: 80px;
     background-repeat: repeat-x;
     top:0;
     width: 100%;
