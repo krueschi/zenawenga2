@@ -8,9 +8,6 @@
  */
 ?>
 <div class="PageBackgroundSimpleGradient"></div>
-<div class="PageBackgroundGlare">
-  <div class="PageBackgroundGlareImage"></div>
-</div>
 
 <div class="Sheet">
   <div class="Sheet-tl"></div>

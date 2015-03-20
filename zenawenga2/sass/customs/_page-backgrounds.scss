@@ -10,30 +10,6 @@
  */
 
 @media screen and (min-width: 800px) {
-
-  .PageBackgroundGlare
-  {
-    position: absolute;
-    width: 100%;
-    height: 343px;
-    left: 0;
-    top: 0;
-  }
-
-  .PageBackgroundGlareImage
-  {
-    background-image: url('../images/background/Page-BgGlare.png');
-    background-repeat: no-repeat;
-    height: 343px;
-    width: 353px;
-    margin: 0;
-  }
-
-  html:first-child .PageBackgroundGlare
-  {
-    border: 1px solid transparent; /* Opera fix */
-  }
-
   .PageBackgroundSimpleGradient {
     position: absolute;
     @include background-image(linear-gradient(to bottom, $c_backblue, $white));
@@ -45,7 +21,7 @@
     height: 250px;
   }
 
-  .PageBackgroundSimpleGradient, .PageBackgroundGradient, .PageBackgroundGlare {
+  .PageBackgroundSimpleGradient, .PageBackgroundGradient {
     min-width:801px;
   }
 
