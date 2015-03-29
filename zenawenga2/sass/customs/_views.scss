@@ -124,3 +124,27 @@
     background-color: $light;
   }
 }
+
+/*
+ * Views schedule
+ */
+.view-schedule {
+  caption {
+    background-color: $light;
+    font-size: $h2-font-size;
+    color: $ht16red;
+    text-shadow: 1px 1px $grey;
+    line-height: 1.75em;
+    border: 1px solid $mediumgrey;
+    width: 100%;
+  }
+  tr {
+    line-height: 1.75em;
+  }
+  td.views-field-field-schedule-date {
+    background-color: $yellowlight;
+  }
+  td.views-field-title {
+    padding-left: 1em;
+  }
+}
