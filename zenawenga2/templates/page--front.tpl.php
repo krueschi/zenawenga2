@@ -99,10 +99,10 @@
 
   </div>
 
-  <?php print render($page['footer']); ?>
-
 </div>
 
 </div><!-- /#Sheet -->
+
+<?php print render($page['footer']); ?>
 
 <?php print render($page['bottom']); ?>

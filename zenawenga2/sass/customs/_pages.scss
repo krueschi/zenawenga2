@@ -1,7 +1,7 @@
 ﻿/*
  * pages styles
  */
- 
+
 /*
  * Header
  */
@@ -28,7 +28,7 @@
   font-family: 'droid_sansbold';
 }
 
-h1#site-name, 
+h1#site-name,
 div#site-name /* The name of the website */ {
   display: block;
   float: left;
@@ -38,7 +38,7 @@ div#site-name /* The name of the website */ {
 }
 
 .header__site-link a,
-.header__site-link:link, 
+.header__site-link:link,
 .header__site-link:visited {
   color: $ht16red;
   text-decoration: none;
@@ -99,7 +99,7 @@ a:visited, {
   text-decoration: none;
 }
 
-.pager .pager-current, 
+.pager .pager-current,
 .pager li a:active,
 .pager li a:hover,
 .pager .pager-current li {
@@ -109,3 +109,11 @@ a:visited, {
   font: 11px/13px Verdana,Arial,Helvetica,sans-serif;
   text-decoration: none;
 }
+
+/*
+ * Footer menu stylings
+ */
+#footer {
+  
+}
+/* End Footer menu stylings */

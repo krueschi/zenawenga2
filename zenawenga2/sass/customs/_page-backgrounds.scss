@@ -39,14 +39,6 @@
     background-color: $white;
     box-shadow: 0 0 20px $shadowgrey;
   }
-
-  .Sheet-body
-  {
-    position: relative;
-    z-index:1;
-    padding: 10px;
-  }
-
   /* end Box, Sheet */
 
   #page {
@@ -65,6 +57,7 @@
   }
 
   #footer {
+    background-color: $anthrazit;
   }
 
   #footer .section {
