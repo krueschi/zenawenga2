@@ -106,6 +106,45 @@
   left: -10000em;
 }
 
+/* Test overwrite menu center */
+#main-menu {
+  float:left;
+  width:100%;
+  background:#fff;
+  border-bottom:4px solid #000;
+  overflow:hidden;
+  position:relative;
+  ul {
+    clear:left;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+    li {
+      display:block;
+      float:left;
+      list-style:none;
+      margin:0;
+      padding:0;
+      position:relative;
+      right:50%;
+      a {
+        display:block;
+        margin:0 0 0 1px;
+        padding:3px 10px;
+        background:#ddd;
+        color:#000;
+        text-decoration:none;
+        line-height:1.3em;
+      }
+    }
+  }
+}
+
+
 /*
  * Secondary menu stylings
  */
