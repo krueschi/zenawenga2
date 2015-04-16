@@ -101,8 +101,21 @@
 
 </div>
 
-</div><!-- /#Sheet -->
+<div id="footer-wrapper"><div class="section">
+  <?php if ($page['footer_left'] || $page['footer_right']): ?>
+    <div id="footer-columns" class="clearfix">
+      <?php print render($page['footer_left']); ?>
+      <?php print render($page['footer_right']); ?>
+    </div> <!-- /#footer-columns -->
+  <?php endif; ?>
 
-<?php print render($page['footer']); ?>
+  <?php if ($page['footer']): ?>
+    <div id="footer" class="clearfix">
+      <?php print render($page['footer']); ?>
+    </div> <!-- /#footer -->
+  <?php endif; ?>
+</div></div> <!-- /.section, /#footer-wrapper -->
+
+</div><!-- /#Sheet -->
 
 <?php print render($page['bottom']); ?>

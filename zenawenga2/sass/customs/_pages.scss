@@ -111,9 +111,14 @@ a:visited, {
 }
 
 /*
- * Footer menu stylings
+ * Footer
  */
-#footer {
-  
+#footer-wrapper {
+  color: $grey;
+  .region-footer-left,
+  .region-footer-right {
+    width: 50%;
+    float: left;
+  }
 }
-/* End Footer menu stylings */
+/* End Footer */

@@ -56,10 +56,14 @@
   #main {
   }
 
-  #footer {
+  #footer .section {
+  }
+}
+
+@media all {
+  #footer-wrapper {
+    margin-top: 1em;
     background-color: $anthrazit;
   }
 
-  #footer .section {
-  }
 }

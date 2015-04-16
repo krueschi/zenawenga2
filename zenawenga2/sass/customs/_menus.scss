@@ -18,7 +18,7 @@
 	font-weight:bold;
 	text-decoration: none;
 	margin-right: 2px;
-	margin-left: 2px; 
+	margin-left: 2px;
 }
 
 
@@ -85,7 +85,7 @@
   background: $ht16red;
   color: $light;
   text-shadow: none;
-  
+
 }
 .featured #main-menu li a:active,
 .featured #main-menu li a.active {
@@ -129,7 +129,7 @@
   list-style:none;
   font-size: $h5-font-size;
   line-height: $h5-font-size;
-  color:$anthrazit;   
+  color:$anthrazit;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -165,7 +165,7 @@
 /*
  * End secondary menu stylings
  */
- 
+
 /*
  * Block menu stylings
  */
@@ -193,5 +193,22 @@
   a:hover {
     color: $light;
     background-color: $ht16red;
+  }
+}
+
+#footer-wrapper {
+  li {
+    list-style: none;
+  }
+  a {
+    &:link,
+    &:visited {
+      color: $grey;
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover,
+    &.active {
+      color: $light;
+    }
   }
 }

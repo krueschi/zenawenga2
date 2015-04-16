@@ -2,7 +2,7 @@
  * @file:
  * node styles
  */
- 
+
 h1.page__title.title,
 .node h2 {
   font-family: 'droid_sans';
@@ -20,10 +20,13 @@ h1.page__title.title,
   }
 }
 
-.node li, 
+.node li,
 p {
   font-family: 'droid_sans';
   color: $c_text;
+  #footer-wrapper & {
+    color: $grey;
+  }
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
