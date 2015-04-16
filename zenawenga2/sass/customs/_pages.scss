@@ -114,11 +114,17 @@ a:visited, {
  * Footer
  */
 #footer-wrapper {
+  @include zen-grid-container();
   color: $grey;
-  .region-footer-left,
-  .region-footer-right {
-    width: 50%;
-    float: left;
+
+  @media all and (min-width: 520px) {
+    $zen-column-count: 2;
+    .region-footer-left {
+      @include zen-grid-item(1,1);
+    }
+    .region-footer-right {
+      @include zen-grid-item(1,2);
+    }
   }
 }
 /* End Footer */
