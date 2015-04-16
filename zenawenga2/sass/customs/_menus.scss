@@ -25,68 +25,59 @@
 /*
  * Primary and Secondary menu links
  */
-#main-menu {
-  clear: both;
-  font-size: $h5-font-size;
-  margin: 0;
-  padding: 0 0.25em;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: #dedede;
-}
+ #main-menu {
+   float:left;
+   width:100%;
+   overflow:hidden;
+   position:relative;
+   font-size: $h5-font-size;
+   margin: 0;
+   padding: 0;
+   ul {
+     clear:left;
+     float:left;
+     list-style:none;
+     margin:0;
+     padding:0;
+     position:relative;
+     left:50%;
+     text-align:center;
+     li {
+       display:block;
+       float:left;
+       list-style:none;
+       margin:0;
+       padding:0 0.2em;
+       position:relative;
+       right:50%;
+       letter-spacing: 1px;
+       a {
+         float: left; /* LTR */
+         height: 2.2em;
+         line-height: 2.2em;
+         display:block;
+         margin:0;
+         padding: 0 0.5em;
+         text-decoration:none;
+         text-shadow: 0 1px $light;
+         color: $anthrazit;
+         & {
+           @include buttonstyle;
+           @include rounded(8px)
+         }
+         &:hover,
+         &:focus,
+         &.active {
+           background: $ht16red;
+           color: $light;
+           text-shadow: none;
+           /* background: rgba(255, 255, 255, 0.95); */
+         }
+       }
+     }
+   }
+ }
 
-#main-menu li {
-  float: left; /* LTR */
-  list-style: none;
-  padding: 0 1px;
-  margin: 0 1px;
-  font-family: 'droid_sans';
-  letter-spacing: 1px;
-}
-#main-menu a {
-  color: $anthrazit;
-  /* background: rgba(255, 255, 255, 0.7); */
-  float: left; /* LTR */
-  height: 2.2em;
-  line-height: 2.2em;
-  padding: 0 0.5em;
-  text-decoration: none;
-  text-shadow: 0 1px $light;
-  -khtml-border-radius-topleft: 8px;
-  -khtml-border-radius-topright: 8px;
-  -moz-border-radius-topleft: 8px;
-  -moz-border-radius-topright: 8px;
-  -webkit-border-top-left-radius: 8px;
-  -webkit-border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  & {
-    @include buttonstyle;
-  }
-}
-#main-menu a:hover,
-#main-menu a:focus {
-  background: $ht16red;
-  color: $light;
-  text-shadow: none;
-  /* background: rgba(255, 255, 255, 0.95); */
-  & {
-    @include buttonstyle_hover;
-  }
-}
-#main-menu a:active {
-  background: $ht16red;
-  color: $light;
-  text-shadow: none;
-  /* background: rgba(255, 255, 255, 1); */
-}
-#main-menu li a.active {
-  border-bottom: none;
-  background: $ht16red;
-  color: $light;
-  text-shadow: none;
-
-}
 .featured #main-menu li a:active,
 .featured #main-menu li a.active {
   background: #f0f0f0;
@@ -105,45 +96,6 @@
   position: absolute;
   left: -10000em;
 }
-
-/* Test overwrite menu center */
-#main-menu {
-  float:left;
-  width:100%;
-  background:#fff;
-  border-bottom:4px solid #000;
-  overflow:hidden;
-  position:relative;
-  ul {
-    clear:left;
-    float:left;
-    list-style:none;
-    margin:0;
-    padding:0;
-    position:relative;
-    left:50%;
-    text-align:center;
-    li {
-      display:block;
-      float:left;
-      list-style:none;
-      margin:0;
-      padding:0;
-      position:relative;
-      right:50%;
-      a {
-        display:block;
-        margin:0 0 0 1px;
-        padding:3px 10px;
-        background:#ddd;
-        color:#000;
-        text-decoration:none;
-        line-height:1.3em;
-      }
-    }
-  }
-}
-
 
 /*
  * Secondary menu stylings
@@ -236,14 +188,18 @@
 }
 
 #footer-wrapper {
+  ul {
+  }
   li {
     list-style: none;
+    padding: 0.25em;
+    border-left: solid 3px $grey;
   }
   a {
     &:link,
     &:visited {
       color: $grey;
-      transition: all 0.3s ease-in-out;
+      @include transitions(all, 0.3s, ease-in-out);
     }
     &:hover,
     &.active {
