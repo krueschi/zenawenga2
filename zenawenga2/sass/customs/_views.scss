@@ -126,12 +126,15 @@
 }
 
 /*
- * Views schedule
+ * Views schedule and result listings
  */
-.view-schedule {
-  caption {
+.view-schedule,
+.view-content {
+  caption,
+  h3 {
     background-color: $light;
     font-size: $h2-font-size;
+    text-align: center;
     color: $ht16red;
     text-shadow: 1px 1px $grey;
     line-height: 1.75em;
