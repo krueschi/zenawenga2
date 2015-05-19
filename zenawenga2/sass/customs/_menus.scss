@@ -170,20 +170,15 @@
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  transition: background 0.3s roll-out 0s;
+  @include transitions(all, 0.3s, ease-in-out);
   }
-  a:link {
+  &:link,
+  &:visited {
     margin: 0.125em;
     // padding: 0.25em;
-    border: 0px;
-    border-radius: 0.25em;
-    -moz-border-radius: 0.25em;
-    -webkit-border-radius: 0.25em;
-    -khtml-border-radius: 0.25em;
   }
   a:hover {
-    color: $light;
-    background-color: $ht16red;
+    color: $c_fliplink;
   }
 }
 
