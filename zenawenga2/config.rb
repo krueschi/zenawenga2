@@ -1,12 +1,3 @@
-#
-# This file is only needed for Compass/Sass integration. If you are not using
-# Compass, you may safely ignore or delete this file.
-#
-# If you'd like to learn more about Sass and Compass, see the sass/README.txt
-# file for more information.
-#
-
-
 # Change this to :production when ready to deploy the CSS to the live server.
 #environment = :development
 environment = :production
@@ -25,15 +16,7 @@ javascripts_dir = "js"
 
 
 # Require any additional compass plugins installed on your system.
-#require 'ninesixty'
 #require 'zen-grids'
-
-# Assuming this theme is in sites/*/themes/THEMENAME, you can add the partials
-# included with a module by uncommenting and modifying one of the lines below:
-#add_import_path "../../../default/modules/FOO"
-#add_import_path "../../../all/modules/FOO"
-#add_import_path "../../../../modules/FOO"
-
 
 ##
 ## You probably don't need to edit anything below this.
