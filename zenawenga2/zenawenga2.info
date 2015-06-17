@@ -2,7 +2,7 @@ screenshot  = screenshot.png
 name        = Zenawenga2
 description = A zen subtheme
 core        = 7.x
-version     = 7.x-2.0-alpha2
+version     = 7.x-2.0-alpha3
 base theme  = zen
 
 ; stylesheets[MEDIA][] = FILE
