@@ -1,4 +1,4 @@
-﻿/**
+ ﻿/**
  * Views module styles
  */
 .view-content {
@@ -162,5 +162,15 @@
   }
   td.views-field-title {
     padding-left: 1em;
+  }
+}
+
+.view-display-id-page_1 {
+  table {
+    width: 100%;
+    margin: 0 auto;
+  }
+  th, td {
+    padding: 0 0.5em;
   }
 }
