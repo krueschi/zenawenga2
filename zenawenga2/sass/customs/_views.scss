@@ -176,12 +176,17 @@
 }
 
 .views-widget-filter-field_cal_ak_value {
-  .form-checkboxes {
+  .form-checkboxes,
+  .form-radios {
     margin: +0.75em +0em;
     .form-item {
       display: inline;
       margin-right: +1em;
     }
+  }
+  .description {
+    font-size: -0.25em;
+    color: $anthrazit;
   }
 }
 .views-submit-button {
