@@ -20,6 +20,17 @@ h1.page__title.title,
   }
 }
 
+.node {
+  h2.ds-title-link {
+    & a {
+      color: $dark;
+      &:hover {
+        color: $c_fliplink;
+      }
+    }
+  }
+}
+
 .node li,
 p {
   font-family: 'droid_sans';
