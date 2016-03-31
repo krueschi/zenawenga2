@@ -18,6 +18,9 @@ h1.page__title.title,
   a:active {
     text-shadow: $c_shadow 2px 2px 2px;
   }
+  a:hover {
+    color: $c_fliplink;
+  }
 }
 
 .node {
