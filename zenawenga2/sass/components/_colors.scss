@@ -6,12 +6,12 @@
 /**
  * color settings
  */
-$ht16red: #a10f15;
+$ht16red: #b21b1b;
 $ht16shadow: $ht16red - #444;
 $darkred: #640b0f;
 
 $yellowlight: #fffbd9;
-$yellow: #ffeb00; 
+$yellow: #ffeb00;
 
 $white: #fff;
 $light: #efefef;
@@ -27,7 +27,7 @@ $black: #000;
  * color variables
  * naming conventions:
  * - prefix: "c_" (for color)
- * - +context or element (e.g. "link" for links) 
+ * - +context or element (e.g. "link" for links)
  */
 $c_hinweisback: $yellowlight;
 $c_hinweisborder: $yellow;
