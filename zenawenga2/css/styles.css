@@ -1868,27 +1868,38 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000326}}
 #logo img {
-  vertical-align: bottom;
+  vertical-align: center;
+  display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000331}}
 #name-and-slogan {
   font-family: 'droid_sansbold';
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  vertical-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000340}}
 h1#site-name,
 div#site-name {
   display: block;
   float: left;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-top: 0.25em;
   margin-left: 0.5em;
+  text-align: center;
+}
+@media screen and (max-width: 615px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000340}}
+  h1#site-name,
+  div#site-name {
+    margin-left: 0;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000354}}
 .header__site-link a,
 .header__site-link:link,
 .header__site-link:visited {
@@ -1897,7 +1908,7 @@ div#site-name {
   text-shadow: #ababab 3px 3px 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000360}}
 div#site-slogan {
   font-size: 1.25em;
   font-style: italic;
@@ -1910,7 +1921,7 @@ div#site-slogan {
 /**
  * Link stylings
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000376}}
 a,
 a:link,
 a:hover,
@@ -1923,7 +1934,7 @@ a:visited {
 /**
  * Pager styles
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000384}}
 .pager {
   clear: both;
   overflow: auto;
@@ -1934,7 +1945,7 @@ a:visited {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000397}}
 .pager li a,
 #content-area .pager li a:link,
 .pager li a:active,
@@ -1956,7 +1967,7 @@ a:visited {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003118}}
 .pager .pager-current,
 .pager li a:active,
 .pager li a:hover,
@@ -1971,7 +1982,7 @@ a:visited {
 /*
  * Footer
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003129}}
 #footer-wrapper {
   color: #999999;
 }
@@ -1985,14 +1996,14 @@ a:visited {
   clear: both;
 }
 @media all and (min-width: 520px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003135}}
   #footer-wrapper .region-footer-left {
     float: left;
     width: 50%;
     margin-left: 0%;
     margin-right: -50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/projects\/mamp_www\/ht16-judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003138}}
   #footer-wrapper .region-footer-right {
     float: left;
     width: 50%;

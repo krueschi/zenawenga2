@@ -20,26 +20,33 @@
   float: left; /* LTR */
   margin-top: 10px;
   padding: 0;
-  display : block;
+  display: block;
 }
 
 #logo img {
-  vertical-align: bottom;
+  vertical-align: center;
+  display: block;
 }
 
 #name-and-slogan /* Wrapper for website name and slogan */ {
   font-family: 'droid_sansbold';
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  vertical-align: center;
 }
 
 h1#site-name,
 div#site-name /* The name of the website */ {
   display: block;
   float: left;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-top: 0.25em;
   margin-left: 0.5em;
+  text-align: center;
+  @media screen and (max-width: 615px) {
+    margin-left: 0;
+  }
 }
 
 .header__site-link a,
