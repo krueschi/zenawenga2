@@ -71,3 +71,26 @@ ul.flippy li {
   content: ">>";
   }
 }
+
+// Begin definition lists
+dl {
+  margin-top: 0.5em;
+  dt {
+    margin-top: 0.75em;
+    text-transform: uppercase;
+    font-family: 'droid_sansbold';
+  }
+  dd {
+    &.subtitle:before {
+      content: "(";
+    }
+    &.subtitle:after {
+      content: ")";
+    }
+    &.author {
+      font-style: italic;
+    }
+  }
+}
+
+// End definition lists
