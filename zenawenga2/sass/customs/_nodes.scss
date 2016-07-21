@@ -47,6 +47,15 @@ p {
   hyphens: auto;
 }
 
+.node-teaser {
+  img {
+    @include filter(sepia, 65%);
+    &:hover {
+      @include filter(sepia, 0%);
+    }
+  }
+}
+
 .flippy,
 .breadcrumb {
   font-size: $base-font-size/1.25;
