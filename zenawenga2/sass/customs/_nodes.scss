@@ -49,7 +49,7 @@ p {
 
 .node-teaser {
   img {
-    @include filter(sepia, 65%);
+    @include filter(grayscale, 100%);
     &:hover {
       @include filter(sepia, 0%);
     }
