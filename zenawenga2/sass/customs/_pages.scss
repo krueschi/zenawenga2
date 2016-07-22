@@ -23,9 +23,9 @@
   margin-top: 10px;
   padding: 0;
   display: block;
-  @media screen and (max-width: $mobile_width) {
+  // @media screen and (max-width: $mobile_width) {
     width: 100%;
-  }
+  // }
 }
 
 #logo img {
@@ -39,11 +39,11 @@
   display: block;
   margin-left: 1em;
   vertical-align: bottom;
-  @media screen and (max-width: $mobile_width) {
+  // @media screen and (max-width: $mobile_width) {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
+  // }
 }
 
 h1#site-name,
@@ -72,11 +72,11 @@ div#site-slogan {
   margin-left: 1.12em;
 	color: $grey;
   // clear: both;
-  @media screen and (max-width: $mobile_width) {
+  // @media screen and (max-width: $mobile_width) {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
+  // }
 }
 
 /**
