@@ -10,13 +10,13 @@
  */
 
 @media screen and (min-width: 800px) {
+  body {
+    background-image: url("../images/bg_n2-transparent-compressor.png");
+    background-color: $ht16red;
+  }
   .PageBackgroundSimpleGradient {
     position: absolute;
-    @include background-image(linear-gradient(to bottom, $c_backblue, $white));
-    height: 80px;
-    top:0;
     width: 100%;
-    height: 250px;
   }
 
   .PageBackgroundSimpleGradient, .PageBackgroundGradient {
@@ -37,7 +37,6 @@
     min-height:23px;
     margin-top: -15px !important;
     background-color: $white;
-    box-shadow: 0 0 20px $shadowgrey;
   }
   /* end Box, Sheet */
 
