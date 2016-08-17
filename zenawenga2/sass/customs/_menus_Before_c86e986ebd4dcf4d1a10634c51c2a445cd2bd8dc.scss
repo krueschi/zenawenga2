@@ -1,0 +1,201 @@
+﻿/**
+ * @file:
+ * menu styles
+ */
+/*
+ * Navigation bar
+ */
+#navigation {
+  clear: both;
+}
+
+#navigation a {
+  display: inline-block;
+  position:relative;
+	overflow:hidden;
+	/* height: 31px; */
+	cursor: pointer;
+	font-weight:bold;
+	text-decoration: none;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+
+/*
+ * Primary menu links
+ */
+ #main-menu {
+   float:left;
+   width:100%;
+   background-color: $anthrazit;
+   overflow:hidden;
+   position:relative;
+   font-size: $h5-font-size;
+   margin: 0;
+   padding: 0.25em 0;
+   ul {
+     clear:left;
+     float:left;
+     list-style:none;
+     margin:0;
+     padding:0;
+     position:relative;
+     left:50%;
+     text-align:center;
+     li {
+       display:block;
+       float:left;
+       list-style:none;
+       margin:0;
+       padding:0 0.2em;
+       position:relative;
+       right:50%;
+       letter-spacing: 1px;
+       a {
+         float: left; /* LTR */
+         height: 2.2em;
+         line-height: 2.2em;
+         display:block;
+         margin:0;
+         padding: 0 0.5em;
+         text-decoration:none;
+         color: $mediumgrey;
+         &:hover,
+         &:focus,
+         &.active {
+           background: $ht16red;
+           @include transitions(all, 0.3s, ease-in-out);
+           color: $light;
+           text-shadow: none;
+           /* background: rgba(255, 255, 255, 0.95); */
+         }
+       }
+     }
+   }
+ }
+
+.featured #main-menu li a:active,
+.featured #main-menu li a.active {
+  background: #f0f0f0;
+  background: rgba(240, 240, 240, 1.0);
+}
+
+/* Responsive menu settings and overrides */
+
+.responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
+  position: relative;
+}
+
+.mean-bar h2 {
+  line-height: 1em;
+  margin: 0;
+  position: absolute;
+  left: -10000em;
+}
+
+/*
+ * Secondary menu stylings
+ */
+
+#header-links,
+#block-menu-menu-secondary-menu {
+  float: right;
+  display: inline;
+  margin-top: -3em;
+}
+
+#block-menu-menu-secondary-menu ul,
+#block-menu-menu-secondary-menu li,
+#block-menu-menu-secondary-menu a,
+#block-menu-menu-secondary-menu a:link,
+#block-menu-menu-secondary-menu a:hover,
+#block-menu-menu-secondary-menu a:visited {
+  display:inline;
+  float:left;
+  margin:5px 5px 0px 0px;
+  list-style:none;
+  font-size: $h5-font-size;
+  line-height: $h5-font-size;
+  color:$anthrazit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#block-menu-menu-secondary-menu a:hover,
+ a.active {
+  text-shadow: $c_shadow 2px 2px 2px;
+  color: $ht16red;
+}
+
+#block-menu-menu-secondary-menu li {
+  border-right: 1px solid $grey;
+}
+
+#block-menu-menu-secondary-menu li.last {
+  border-right: none;
+}
+
+.element-invisible {
+  position: absolute;
+  left: -5000em;
+}
+
+@media all and (max-width: 790px) {
+  #block-menu-menu-secondary-menu {
+    position: absolute;
+    margin-top: +0.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*
+ * End secondary menu stylings
+ */
+
+/*
+ * Block menu stylings
+ */
+.sidebars .block {
+  li {
+    list-style: none;
+
+  }
+  a {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  @include transitions(all, 0.3s, ease-in-out);
+  }
+  &:link,
+  &:visited {
+    margin: 0.125em;
+    // padding: 0.25em;
+  }
+  a:hover {
+    color: $c_fliplink;
+  }
+}
+
+#footer-wrapper {
+  ul {
+  }
+  li {
+    list-style: none;
+    padding: 0.25em;
+    border-left: solid 3px $grey;
+  }
+  a {
+    &:link,
+    &:visited {
+      color: $grey;
+      @include transitions(all, 0.3s, ease-in-out);
+    }
+    &:hover,
+    &.active {
+      color: $light;
+    }
+  }
+}
