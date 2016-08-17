@@ -11,6 +11,14 @@ h1.page__title.title,
 }
 
 .node {
+  h2.ds-title-link {
+    & a {
+      color: $dark;
+      &:hover {
+        color: $c_fliplink;
+      }
+    }
+  }
   h3, h4, h5, h6 {
     font-family: 'droid_sans';
   }
@@ -21,16 +29,9 @@ h1.page__title.title,
   a:hover {
     color: $c_fliplink;
   }
-}
-
-.node {
-  h2.ds-title-link {
-    & a {
-      color: $dark;
-      &:hover {
-        color: $c_fliplink;
-      }
-    }
+  .field-name-field-image {
+    margin: auto;
+    max-width: 650px;
   }
 }
 
