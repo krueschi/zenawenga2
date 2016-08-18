@@ -84,6 +84,65 @@
   background: rgba(240, 240, 240, 1.0);
 }
 
+.header__region {
+  #block-system-main-menu {
+    z-index: -100;
+    float:left;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    font-size: $h5-font-size;
+    margin: 0;
+    padding: 0;
+    background-color: $anthrazit;
+    ul {
+      clear:left;
+      float:left;
+      list-style:none;
+      margin: 0.5em 0;
+      padding:0;
+      position:relative;
+      left:50%;
+      text-align:center;
+      li {
+        display:block;
+        float:left;
+        list-style:none;
+        margin:0;
+        padding:0 0.2em;
+        position:relative;
+        right:50%;
+        letter-spacing: 1px;
+        a {
+          float: left; /* LTR */
+          height: 2.2em;
+          line-height: 2.2em;
+          display:block;
+          margin:0;
+          padding: 0 0.5em;
+          text-decoration: none;
+          text-shadow: none;
+          color: $light;
+          &:hover,
+          &:focus {
+            background: $light;
+            color: $anthrazit;
+            text-shadow: none;
+          }
+
+          &.active {
+            background: $ht16red;
+            color: $light;
+            text-shadow: none;
+            /* background: rgba(255, 255, 255, 0.95); */
+          }
+        }
+      }
+    }
+  }
+}
+
+
 /* Responsive menu settings and overrides */
 
 .responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {

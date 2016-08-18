@@ -25,3 +25,8 @@ The latest tested versions are:
 - Branch 7.x-3.x: reflects the new 2016 CI.
 - Branch 7.x-6.x: prepare for usage of Zen 7.x-6.x as a base theme, highly experimental.
 - anything else: development or experimental
+
+# Todo and short infos
+
+Version 7.x-3.x may need the blockify module. If so, the theme must disable the use of primary menu and logo display.  
+Then enable logo and primary menu as blocks in header region.
