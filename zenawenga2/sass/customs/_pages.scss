@@ -25,6 +25,10 @@
   margin: 2em;
   padding: 0;
   display: block;
+  @media screen and (max-width: $mobile_width) {
+    width: 100%;
+    margin: 2em 0;
+  }
 }
 
 #logo img {
