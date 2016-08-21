@@ -25,58 +25,62 @@
 /*
  * Primary and Secondary menu links
  */
- #main-menu {
-   float:left;
-   width:100%;
-   overflow:hidden;
-   position:relative;
-   font-size: $h5-font-size;
-   margin: 0;
-   padding: 0;
-   ul {
-     clear:left;
-     float:left;
-     list-style:none;
-     margin:0;
-     padding:0;
-     position:relative;
-     left:50%;
-     text-align:center;
-     li {
-       display:block;
-       float:left;
-       list-style:none;
-       margin:0;
-       padding:0 0.2em;
-       position:relative;
-       right:50%;
-       letter-spacing: 1px;
-       a {
-         float: left; /* LTR */
-         height: 2.2em;
-         line-height: 2.2em;
-         display:block;
-         margin:0;
-         padding: 0 0.5em;
-         text-decoration:none;
-         text-shadow: 0 1px $light;
-         color: $anthrazit;
-         & {
-           @include buttonstyle;
-           @include rounded(8px)
-         }
-         &:hover,
-         &:focus,
-         &.active {
-           background: $ht16red;
-           color: $light;
-           text-shadow: none;
-           /* background: rgba(255, 255, 255, 0.95); */
-         }
-       }
-     }
-   }
- }
+
+/*
+ * When primary menu theme funktion is used, go with these settings
+ */
+ // #main-menu {
+ //   float:left;
+ //   width:100%;
+ //   overflow:hidden;
+ //   position:relative;
+ //   font-size: $h5-font-size;
+ //   margin: 0;
+ //   padding: 0;
+ //   ul {
+ //     clear:left;
+ //     float:left;
+ //     list-style:none;
+ //     margin:0;
+ //     padding:0;
+ //     position:relative;
+ //     left:50%;
+ //     text-align:center;
+ //     li {
+ //       display:block;
+ //       float:left;
+ //       list-style:none;
+ //       margin:0;
+ //       padding:0 0.2em;
+ //       position:relative;
+ //       right:50%;
+ //       letter-spacing: 1px;
+ //       a {
+ //         float: left; /* LTR */
+ //         height: 2.2em;
+ //         line-height: 2.2em;
+ //         display:block;
+ //         margin:0;
+ //         padding: 0 0.5em;
+ //         text-decoration:none;
+ //         text-shadow: 0 1px $light;
+ //         color: $anthrazit;
+ //         & {
+ //           @include buttonstyle;
+ //           @include rounded(8px)
+ //         }
+ //         &:hover,
+ //         &:focus,
+ //         &.active {
+ //           background: $ht16red;
+ //           color: $light;
+ //           text-shadow: none;
+ //           /* background: rgba(255, 255, 255, 0.95); */
+ //         }
+ //       }
+ //     }
+ //   }
+ // }
 
 .featured #main-menu li a:active,
 .featured #main-menu li a.active {
@@ -86,13 +90,13 @@
 
 .header__region {
   #block-system-main-menu {
-    z-index: -100;
+    z-index: -10;
     float:left;
     width:100%;
     overflow:hidden;
     position:relative;
     font-size: $h5-font-size;
-    margin: -210px 0 0 0;
+    margin: -150px 0 0 0;
     padding: 0;
     background-color: $anthrazit;
     ul {

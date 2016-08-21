@@ -41,12 +41,13 @@
   font-family: 'droid_sansbold';
   display: block;
   margin-left: 1em;
-  vertical-align: bottom;
-  // @media screen and (max-width: $mobile_width) {
+  margin-top: 1em;
+  // vertical-align: bottom;
+  @media screen and (max-width: $mobile_width) {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  // }
+  }
 }
 
 h1#site-name,
