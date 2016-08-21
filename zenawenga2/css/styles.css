@@ -2415,37 +2415,44 @@ h1.page__title.title,
 .node h2 {
   font-family: 'droid_sans';
   font-size: 24px;
-  color: #212121;
+  color: #b21b1b;
+  border-bottom: 2px solid #999999;
+  padding-bottom: 0.25em;
+  margin-bottom: 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000315}}
-.node h2.ds-title-link a {
-  color: #212121;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000317}}
-.node h2.ds-title-link a:hover {
-  color: #2385ba;
+.node h2.ds-title-link {
+  padding-bottom: 0.25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000319}}
+.node h2.ds-title-link a {
+  color: #b21b1b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000321}}
+.node h2.ds-title-link a:hover {
+  color: #373737;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000326}}
 .node h3, .node h4, .node h5, .node h6 {
   font-family: 'droid_sans';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000330}}
 .node a:hover,
 .node a:active {
   text-shadow: #ababab 2px 2px 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000333}}
 .node a:hover {
   color: #2385ba;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000336}}
 .node .field-name-field-image {
   margin: auto;
   max-width: 650px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000343}}
 .node li,
 p {
   font-family: 'droid_sans';
@@ -2455,7 +2462,7 @@ p {
   -ms-hyphens: auto;
   hyphens: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000346}}
 #footer-wrapper .node li, #footer-wrapper
 p {
   color: #999999;
@@ -2471,12 +2478,12 @@ p {
   }
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000367}}
 .flippy,
 .breadcrumb {
   font-size: 12.8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000370}}
 .flippy a,
 .flippy a:link,
 .breadcrumb a,
@@ -2484,45 +2491,45 @@ p {
   color: #212121;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000375}}
 ul.flippy li {
   padding: 0;
   margin-top: +1em;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000380}}
 ul.flippy li a:link,
 ul.flippy li a:visited {
   color: #2385ba;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000383}}
 ul.flippy li.prev:before {
   content: "<<";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000386}}
 ul.flippy li.next:before {
   content: ">>";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000392}}
 dl {
   margin-top: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000394}}
 dl dt {
   margin-top: 0.75em;
   text-transform: uppercase;
   font-family: 'droid_sansbold';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003100}}
 dl dd.subtitle:before {
   content: "(";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003103}}
 dl dd.subtitle:after {
   content: ")";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/Sites\/ht16judo\/sites\/all\/themes\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003106}}
 dl dd.author {
   font-style: italic;
 }

@@ -7,15 +7,19 @@ h1.page__title.title,
 .node h2 {
   font-family: 'droid_sans';
   font-size: $h2-font-size;
-  color: $c_text;
+  color: $ht16red;
+  border-bottom: 2px solid $grey;
+  padding-bottom: 0.25em;
+  margin-bottom: 0.75em;
 }
 
 .node {
   h2.ds-title-link {
+    padding-bottom: 0.25em;
     & a {
-      color: $dark;
+      color: $ht16red;
       &:hover {
-        color: $c_fliplink;
+        color: $anthrazit;
       }
     }
   }
