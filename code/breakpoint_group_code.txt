@@ -1,0 +1,13 @@
+$breakpoint_group = new stdClass();
+$breakpoint_group->disabled = FALSE; /* Edit this to true to make a default breakpoint_group disabled initially */
+$breakpoint_group->api_version = 1;
+$breakpoint_group->machine_name = 'zen_z';
+$breakpoint_group->name = 'Zen-Z';
+$breakpoint_group->breakpoints = array(
+  0 => 'custom.user.z_large',
+  1 => 'custom.user.z_medium',
+  2 => 'custom.user.z_small',
+  3 => 'custom.user.z_xs',
+);
+$breakpoint_group->type = 'custom';
+$breakpoint_group->overridden = 0;
