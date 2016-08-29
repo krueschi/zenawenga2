@@ -121,3 +121,11 @@
   -o-filter: $filter-type+unquote('(#{$filter-amount})');
   filter: $filter-type+unquote('(#{$filter-amount})');
 }
+
+// Image caption styles.
+@mixin caption {
+  padding: 0.25em 0.5em;
+  color: $grey;
+  font-size: $h5-font-size;
+  text-align: center;
+}

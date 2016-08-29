@@ -110,3 +110,8 @@ dl {
 }
 
 // End definition lists
+
+// Image captions.
+.caption {
+  @include caption;
+}
