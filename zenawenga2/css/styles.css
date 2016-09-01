@@ -2539,7 +2539,8 @@ dl dd.author {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003116}}
+figcaption,
 .caption {
   padding: 0.25em 0.5em;
   color: #999999;
@@ -2547,61 +2548,45 @@ dl dd.author {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\000033}}
-.caption {
-  padding: 0.25em 0.5em;
-  color: #999999;
-  font-size: 13.28px;
-  text-align: center;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\000035}}
 #newshero {
   width: 100%;
   margin: 0.75em auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\000038}}
 #newshero .heroimage img {
   display: block;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000328}}
 #newsleftimage {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000330}}
 #newsleftimage .imageleft {
   max-width: 60%;
   float: left;
   margin-right: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000336}}
 #newsleftimage .imageleft .caption {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000342}}
-#newsleftimage .imageleft .simpletext {
-  float: left;
-}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000343}}
 #newsrightimage {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000345}}
 #newsrightimage .imageright {
   max-width: 60%;
   float: right;
   margin-left: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000351}}
 #newsrightimage .imageright .caption {
   text-align: right;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\0000360}}
-#newsrightimage .imageright .simpletext {
-  float: left;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/xampp\/htdocs\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_views\.scss}line{font-family:\000034}}

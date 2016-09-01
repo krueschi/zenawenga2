@@ -1,8 +1,4 @@
 // News feature stylings.
-// General settings.
-.caption {
-  @include caption;
-}
 
 // paragraphs-item--news_hero_image.tpl
 #newshero {
@@ -11,19 +7,6 @@
   .heroimage img {
     display: block;
     margin: 0 auto;
-  }
-}
-
-// paragraphs-item--news_text.tpl
-#newstext {
-
-}
-
-// paragraphs-item--news_simpletext.tpl.php
-#newssimpletext {
-  .newssimpleheader {
-  }
-  .newssimpletext {
   }
 }
 
@@ -39,9 +22,6 @@
     .caption {
       text-align: left;
     }
-    .simpletext {
-      float: left;
-    }
   }
 }
 
@@ -56,9 +36,6 @@
     }
     .caption {
       text-align: right;
-    }
-    .simpletext {
-      float: left;
     }
   }
 }
