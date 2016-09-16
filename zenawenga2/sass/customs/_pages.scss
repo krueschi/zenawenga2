@@ -44,6 +44,7 @@
   display: block;
   margin-left: 1em;
   margin-top: 1em;
+  max-width: 80%;
   // vertical-align: bottom;
   @media screen and (max-width: $mobile_width) {
     width: 100%;
@@ -56,7 +57,7 @@ h1#site-name,
 div#site-name /* The name of the website */ {
   display: block;
   // float: left;
-  font-size: 2.5em;
+  font-size: 2em;
   margin-top: 0.25em;
   margin-left: auto;
   margin-right: auto;
