@@ -102,7 +102,11 @@ $font-monospace:   $courier;
 $indent-amount: 30px;
 
 // The height of the navigation container.
+@media screen and (min-width: $narrow_width + 1px) {
+  $nav-height: 0;
+}
 $nav-height: 3em;
+
 
 // Tab styling.
 $tabs-container-bg: #fff;
