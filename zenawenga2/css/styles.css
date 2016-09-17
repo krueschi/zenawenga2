@@ -638,7 +638,7 @@ table {
 }
 
 /* Navigation bar */
-@media all and (min-width: 360px) {
+@media all and (min-width: 320px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/layouts\/_responsive\.scss}line{font-family:\0000360}}
   #main {
     /* Move all the children of #main down to make room. */
