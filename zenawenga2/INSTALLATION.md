@@ -1,10 +1,10 @@
-## Installation 7.x-3.x
+## Installation instructions
+ 
+When this theme has been enabled in version 7.x-3.x or later (this includes upgrading from 7.x-2.x or earlier versions) do at least:
 
-To install this theme and esp. when upgrading from 7.x-2.x version do at least:
-
-- disable main menu in theme settings
-- activate main menu as block in header region
-- add ```#block-system-main-menu``` to css-selectors for chosing the responsive menu (or change from #main-menu)
+- disable the drupal main menu in theme settings
+- activate the main menu as a block and put it in the header region
+- add ```#block-system-main-menu``` to the block's css-selectors for chosing the responsive menu (or change from #main-menu)
 - clear caches
 
  
