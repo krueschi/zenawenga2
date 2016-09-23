@@ -1,6 +1,6 @@
 screenshot  = screenshot.png
 name        = Zenawenga2
-description = A zen subtheme using fences module. <br><span style="color:red">Please be sure to install and enable the <a href="https://www.drupal.org/project/fences">fences module</a> first!</span>
+description = A zen subtheme using fences module.<p class="messages error">The theme <em><b>requires</b></em> the <a href="https://www.drupal.org/project/fences">Fences module</a> in order to function properly.</p>
 core        = 7.x
 version     = 7.x-4.x-dev
 base theme  = zen
