@@ -103,3 +103,9 @@ dl {
 }
 
 // End definition lists
+
+// Image captions.
+figcaption,
+.caption {
+  @include caption;
+}

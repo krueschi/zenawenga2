@@ -1,0 +1,46 @@
+// News feature stylings.
+
+// paragraphs-item--news_hero_image.tpl
+.krHeroimage {
+  width: 100%;
+  margin: 0.75em auto;
+  .field-name-field-kr-hero-image img,
+    picture,
+    figure {
+      display: block;
+      margin: 0 auto;
+  }
+}
+
+// paragraphs-item--kr-text8image-left.tpl.php
+.krText8imageLeft {
+  clear: both;
+  .imageleft {
+    max-width: 60%;
+    float: left;
+    margin-right: 1.5em;
+    img,
+    picture,
+    figure {
+    }
+    figcaption {
+      text-align: left;
+    }
+  }
+}
+
+// paragraphs-item--kr-text8image-right.tpl.php
+.krText8imageRight {
+  clear: both;
+  .imageright {
+    max-width: 60%;
+    float: right;
+    margin-left: 1.5em;
+    .field-name-field-kr-image img, picture, figure {
+
+    }
+    figcaption {
+      text-align: right;
+    }
+  }
+}
