@@ -2553,7 +2553,7 @@ figcaption,
   margin: 0.75em auto;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_paragraphs\.scss}line{font-family:\000037}}
-#newshero .heroimage img, #newshero picture {
+#newshero .news-hero-image, #newshero img, #newshero picture {
   display: block;
   margin: 0 auto;
 }
