@@ -82,7 +82,7 @@
 
 @mixin buttonstyle_hover {
   color: $light;
-  border-color: $white;
+  border-color: darken($ht16red, 10%);
   border-bottom-color: $shadowgrey;
   background-color: $ht16red;
   background-image: -moz-linear-gradient(center top, $ht16red, $ht16shadow);

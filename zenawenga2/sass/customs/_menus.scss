@@ -63,7 +63,7 @@
          color: $anthrazit;
          & {
            @include buttonstyle;
-           @include rounded(8px)
+           @include rounded(5px)
          }
          &:hover,
          &:focus,
@@ -71,6 +71,7 @@
            background: $ht16red;
            color: $light;
            text-shadow: none;
+           @include buttonstyle_hover;
            /* background: rgba(255, 255, 255, 0.95); */
          }
        }
