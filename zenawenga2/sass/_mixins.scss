@@ -129,3 +129,17 @@
   font-size: $h5-font-size;
   text-align: center;
 }
+
+// Menu and other highlighted text shaders
+@mixin blendit($startcolor, $endcolor, $bordercolor) {
+  border-color: $bordercolor;
+  background-image: -moz-linear-gradient(center top, $startcolor, $endcolor);
+  background-image: -webkit-gradient(linear, top, bottom, from($startcolor), to($endcolor));
+  background-image: -webkit-linear-gradient(top, $startcolor 0%, $endcolor 100%);
+  background-image: linear-gradient(top, $startcolor, $endcolor);
+  /* Für Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$startcolor, endColorstr=$endcolor);
+  zoom: 1;
+  /* Für Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$startcolor, endColorstr=$endcolor)";
+}

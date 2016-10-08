@@ -127,17 +127,20 @@
           text-decoration: none;
           text-shadow: none;
           color: $light;
+          @include rounded(3px);
           &:hover,
           &:focus {
             background: $light;
             color: $anthrazit;
             text-shadow: none;
+            @include blendit($white, $mediumgrey, $grey);
           }
 
           &.active {
             background: $ht16red;
             color: $light;
             text-shadow: none;
+            @include blendit($ht16red, $ht16red - #333333, $darkred)
             /* background: rgba(255, 255, 255, 0.95); */
           }
         }
