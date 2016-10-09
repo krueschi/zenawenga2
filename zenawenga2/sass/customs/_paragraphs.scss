@@ -11,7 +11,9 @@
 }
 
 // paragraphs-item--news_text_bild_links.tpl.php
-#newsleftimage {
+// paragraphs-item--seitentext_bild_links.tpl.php
+#newsleftimage,
+#simplepageleftimage {
   clear: both;
   .imageleft {
     max-width: 60%;
@@ -27,7 +29,8 @@
 }
 
 // paragraphs-item--news_text_bild_rechts.tpl.php
-#newsrightimage {
+#newsrightimage,
+#simplepagerightimage {
   clear: both;
   .imageright {
     max-width: 60%;
