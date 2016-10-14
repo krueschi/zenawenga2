@@ -89,6 +89,10 @@ div#site-slogan {
 }
 
 #main {
+  article:nth-child(even):not(:last-child),
+  article:nth-child(odd):not(:last-child) {
+    margin-bottom: +1.5em;
+  }
 }
 
 /**

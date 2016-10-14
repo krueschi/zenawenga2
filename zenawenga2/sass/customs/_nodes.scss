@@ -14,7 +14,8 @@ h1.page__title.title,
 }
 
 .node {
-  h2.ds-title-link {
+  h2.ds-title-link,
+  h2.node-title {
     padding-bottom: 0.25em;
     & a {
       color: $ht16red;
@@ -32,6 +33,15 @@ h1.page__title.title,
   }
   a:hover {
     color: $c_fliplink;
+  }
+  li.node-readmore a {
+    padding: 0.5em;
+    @include rounded(8px);
+    @include buttonstyle;
+    &:hover,
+    &:active {
+      @include buttonstyle_hover;
+    }
   }
   .field-name-field-image,
   .field-name-field-picture {

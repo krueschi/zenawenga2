@@ -2031,10 +2031,16 @@ div#site-slogan {
   margin-right: auto;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\0000393}}
+#main article:nth-child(even):not(:last-child),
+#main article:nth-child(odd):not(:last-child) {
+  margin-bottom: +1.5em;
+}
+
 /**
  * Link stylings
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003105}}
 a,
 a:link,
 a:hover,
@@ -2047,7 +2053,7 @@ a:visited {
 /**
  * Pager styles
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003113}}
 .pager {
   clear: both;
   overflow: auto;
@@ -2058,7 +2064,7 @@ a:visited {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003126}}
 .pager li a,
 #content-area .pager li a:link,
 .pager li a:active,
@@ -2080,7 +2086,7 @@ a:visited {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003147}}
 .pager .pager-current,
 .pager li a:active,
 .pager li a:hover,
@@ -2095,7 +2101,7 @@ a:visited {
 /*
  * Footer
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003158}}
 #footer-wrapper {
   color: #999999;
 }
@@ -2109,14 +2115,14 @@ a:visited {
   clear: both;
 }
 @media all and (min-width: 520px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003164}}
   #footer-wrapper .region-footer-left {
     float: left;
     width: 50%;
     margin-left: 0%;
     margin-right: -50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_pages\.scss}line{font-family:\00003167}}
   #footer-wrapper .region-footer-right {
     float: left;
     width: 50%;
@@ -2447,39 +2453,77 @@ h1.page__title.title,
   margin-bottom: 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000317}}
-.node h2.ds-title-link {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000318}}
+.node h2.ds-title-link,
+.node h2.node-title {
   padding-bottom: 0.25em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000319}}
-.node h2.ds-title-link a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000320}}
+.node h2.ds-title-link a,
+.node h2.node-title a {
   color: #b21b1b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000321}}
-.node h2.ds-title-link a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000322}}
+.node h2.ds-title-link a:hover,
+.node h2.node-title a:hover {
   color: #373737;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000327}}
 .node h3, .node h4, .node h5, .node h6 {
   font-family: 'droid_sans';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000331}}
 .node a:hover,
 .node a:active {
   text-shadow: #ababab 2px 2px 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000334}}
 .node a:hover {
   color: #2385ba;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000337}}
+.node li.node-readmore a {
+  padding: 0.5em;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #ababab;
+  background-color: #dddddd;
+  background-image: -moz-linear-gradient(center top, #f7f7f7, #dddddd);
+  background-image: -webkit-gradient(linear, top, bottom, from(#f7f7f7), to(#dddddd));
+  background-image: -webkit-linear-gradient(top, #f7f7f7 0%, #dddddd 100%);
+  background-image: linear-gradient(top, #f7f7f7, #dddddd);
+  /* Für Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey);
+  zoom: 1;
+  /* Für Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$lightgrey, endColorstr=$mediumgrey)";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000342}}
+.node li.node-readmore a:hover, .node li.node-readmore a:active {
+  color: #efefef;
+  border-color: white;
+  border-bottom-color: #ababab;
+  background-color: #b21b1b;
+  background-image: -moz-linear-gradient(center top, #b21b1b, #6e0000);
+  background-image: -webkit-gradient(linear, top, bottom, from(#b21b1b), to(#6e0000));
+  background-image: -webkit-linear-gradient(top, #b21b1b 0%, #6e0000 100%);
+  background-image: linear-gradient(top, #b21b1b, #6e0000);
+  /* Für Internet Explorer 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow);
+  zoom: 1;
+  /* Für Internet Explorer 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$ht16red, endColorstr=$ht16shadow)";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000347}}
 .node .field-name-field-image,
 .node .field-name-field-picture {
   margin: auto;
   max-width: 650px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000354}}
 .node li,
 p {
   font-family: 'droid_sans';
@@ -2489,7 +2533,7 @@ p {
   -ms-hyphens: auto;
   hyphens: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000357}}
 #footer-wrapper .node li, #footer-wrapper
 p {
   color: #999999;
@@ -2505,12 +2549,12 @@ p {
   }
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000378}}
 .flippy,
 .breadcrumb {
   font-size: 12.8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000381}}
 .flippy a,
 .flippy a:link,
 .breadcrumb a,
@@ -2518,50 +2562,50 @@ p {
   color: #212121;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000386}}
 ul.flippy li {
   padding: 0;
   margin-top: +1em;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000391}}
 ul.flippy li a:link,
 ul.flippy li a:visited {
   color: #2385ba;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000394}}
 ul.flippy li.prev:before {
   content: "<<";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000397}}
 ul.flippy li.next:before {
   content: ">>";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003103}}
 dl {
   margin-top: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003105}}
 dl dt {
   margin-top: 0.75em;
   text-transform: uppercase;
   font-family: 'droid_sansbold';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003111}}
 dl dd.subtitle:before {
   content: "(";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003114}}
 dl dd.subtitle:after {
   content: ")";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003117}}
 dl dd.author {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/krueschi\/htdocs\/mamp_pro\/ht16-n16\/sites\/all\/themes\/custom\/zenawenga2\/zenawenga2\/sass\/customs\/_nodes\.scss}line{font-family:\00003127}}
 figcaption,
 .caption {
   padding: 0.25em 0.5em;
