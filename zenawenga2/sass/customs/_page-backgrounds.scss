@@ -8,16 +8,19 @@
  * ALA article:
  *   http://www.alistapart.com/articles/fauxcolumns/
  */
-
 @media screen and (min-width: $narrow_width + 1px) {
-  body {
-    background-image: url("../images/bg_n2-transparent-compressor.png");
-    background-color: $ht16red;
-  }
-  .PageBackgroundSimpleGradient {
-    position: absolute;
+  /* begin Background bar */
+  .bar {
+    height: 51px;
+    margin-top: 155px;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: -100;
+    background-color: $anthrazit;
   }
+
   /* begin Box, Sheet */
   .Sheet
   {
@@ -26,6 +29,7 @@
     margin:0 auto;
     max-width: $narrow_width;
     margin-top: -15px !important;
+    min-height: 100%;
     background-color: $white;
   }
   /* end Box, Sheet */

@@ -1,4 +1,4 @@
-<div class="PageBackgroundSimpleGradient"></div>
+<div class="bar"></div>
 
 <div class="Sheet">
 <div id="page">
