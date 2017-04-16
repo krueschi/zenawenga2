@@ -12,42 +12,6 @@
   padding: 0.75rem;
 }
 
-
-/* Bildlauf */
-.region .region-highlighted .views-view-grid .cols-4 {
-  width: 100%
-  img {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 800px) and (max-width: 959px) {
-  .view-bildlauf .col-4 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 799px) {
-  .view-bildlauf {
-      display: none;
-  }
-}
-
-/*
-@media screen and (max-width: 670px) {
-  .view-bildlauf .col-3 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .view-bildlauf .col-3,
-  .view-bildlauf .col-4 {
-    display: none;
-  }
-}
-*/
-
 /* Footer link settings */
 .view-footer,
 .read-more {
