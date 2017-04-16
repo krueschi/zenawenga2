@@ -14,6 +14,12 @@ stylesheets[all][] = system.theme.css
 ; Then we add our own stylesheet.
 stylesheets[all][] = css/styles.css
 
+; Breakpoints module settings
+breakpoints[inbit] = (min-width: 515px) and (max-width: 599px)
+breakpoints[mobile] = (max-width: 670px)
+breakpoints[narrow] = (max-width: 899px)
+breakpoints[desktop] = (min-width: 900px)
+
 ;stylesheets-conditional[lte IE 8][all][] = css/ie8.css
 
 ; Optionally add some JavaScripts to your theme.
