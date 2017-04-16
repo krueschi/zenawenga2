@@ -44,14 +44,14 @@
 .view-newsarchiv .view-content .views-table {
   width: 100%;
   caption {
-  font-size: $h3-font-size;
-  color: $c_text;
-  background-color: $light;
-  border: 1px solid;
-  border-color: $c_shadow;
-  border-radius: 5px;
-  margin-bottom: 0.5em;
-  padding: 0.5em 0;
+    font-size: $h3-font-size;
+    color: $c_text;
+    background-color: $light;
+    border: 1px solid;
+    border-color: $c_shadow;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    padding: 0.5em 0;
   }
   @media screen and (max-width: $mobile_width) {
     & tr {
@@ -59,10 +59,10 @@
     }
   }
   & a {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
   }
   & a:link {
     color: $c_text;
@@ -74,6 +74,10 @@
 
 .views-field.views-field-created.views-align-left {
   width: 6em;
+}
+
+.views-field-totalcount {
+  color: lighten($c_text, 25%);
 }
 
 /* End news archiv view */
