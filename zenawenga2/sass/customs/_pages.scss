@@ -78,6 +78,13 @@ div#site-slogan {
     margin-right: auto;
   // }
 }
+/* End Header */
+
+/* Page Titles */
+h1#page-title {
+  border-bottom: 2px solid;
+  border-color: $ht16red;
+}
 
 /**
  * Link stylings
