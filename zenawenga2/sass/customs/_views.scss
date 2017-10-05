@@ -64,9 +64,11 @@
     -ms-hyphens: auto;
     hyphens: auto;
   }
-  & a:link {
+  & a:link,
+  & a:visited, {
     color: $c_text;
   }
+  & a:active,
   & a:hover {
     color: $ht16red;
   }
