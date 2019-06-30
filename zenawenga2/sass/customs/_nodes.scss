@@ -5,7 +5,7 @@
 
 h1.page__title.title,
 .node h2 {
-  font-family: 'droid_sans';
+  // font-family: 'droid_sans';
   font-size: $h2-font-size;
   color: $c_text;
   margin-bottom: +15px;
@@ -40,7 +40,7 @@ h1.page__title.title,
 
 .node li,
 p {
-  font-family: 'droid_sans';
+  // font-family: 'droid_sans';
   color: $c_text;
   #footer-wrapper & {
     color: $grey;

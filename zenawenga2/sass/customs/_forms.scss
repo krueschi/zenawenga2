@@ -2,3 +2,7 @@
 #edit-pass {
   color: $grey;
 }
+
+input[type="submit"]::-moz-focus-inner {
+  border:0;
+}

@@ -2,8 +2,16 @@
  * @file
  * Styles for display suite menu fields
  */
-.ds-top  .field-name-title h2 {
+.ds-top .field-name-title h2 {
   line-height: 1.5em;
+}
+
+.ds-top {
+  field-name-ds-user-picture {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .ds-left-column {
@@ -12,6 +20,14 @@
 
 p.submitted {
   margin-top: 0;
-  color: $grey;
+  // color: $grey;
   font-size: 0.875em;
+}
+
+.separator {
+  color: $c_fliplink;
+  font-size: 1.5em;
+  vertical-align: middle;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
